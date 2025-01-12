@@ -30,7 +30,7 @@ module vga_top
     output                          b,
 );
 
-logic [2:0] video_ram [640][480];
+logic [7:0] video_ram [640][480]; //rgb 323
 
 vga VGA_GEN
 (
